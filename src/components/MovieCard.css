@@ -1,0 +1,25 @@
+.movie-card {
+  list-style: none;
+  background-color: #1f2430;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 20px rgba(229, 9, 20, 0.4);
+}
+
+.movie-img {
+  width: 100%;
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.movie-title {
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+}

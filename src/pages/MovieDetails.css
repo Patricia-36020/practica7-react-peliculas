@@ -1,0 +1,50 @@
+.detailsContainer {
+  display: flex;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.movieImage {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.movieDetails {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.movieDetails h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.movieDetails p {
+  margin-bottom: 12px;
+}
+
+.btn-volver {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.btn-volver:hover {
+  background-color: #b20710;
+}
+
+@media (max-width: 768px) {
+  .detailsContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}

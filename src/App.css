@@ -1,0 +1,31 @@
+.header {
+  background-color: #0d1017;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #e50914;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+
+.main {
+  flex: 1;
+  padding: 30px 20px;
+}
+
+.link-no-underline {
+  text-decoration: none;
+  color: inherit;
+}
+
+.mensaje {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+
+.error {
+  color: #ff6b6b;
+}

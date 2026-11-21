@@ -1,0 +1,26 @@
+.footer {
+  background-color: #0d1017;
+  border-top: 3px solid #e50914;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  font-size: 0.9rem;
+}
+
+.footer-escudo {
+  width: 90px;
+  height: auto;
+}
+
+.footer-info p {
+  margin: 3px 0;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
